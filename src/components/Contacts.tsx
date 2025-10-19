@@ -27,8 +27,8 @@ const Contacts = () => {
     {
       icon: 'Phone',
       title: 'Телефон',
-      value: '+7 (999) 123-45-67',
-      link: 'tel:+79991234567'
+      value: '+7 (903) 315-19-78',
+      link: 'tel:+79033151978'
     },
     {
       icon: 'Mail',
