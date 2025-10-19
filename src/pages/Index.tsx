@@ -1,21 +1,23 @@
-import Header from '@/components/Header';
-import Hero from '@/components/Hero';
-import Catalog from '@/components/Catalog';
-import About from '@/components/About';
-import Contacts from '@/components/Contacts';
-import Footer from '@/components/Footer';
+import ChessHeader from '@/components/ChessHeader';
+import ChessHero from '@/components/ChessHero';
+import ChessBoard from '@/components/ChessBoard';
+import ChessLessons from '@/components/ChessLessons';
+import ChessTournaments from '@/components/ChessTournaments';
+import ChessNews from '@/components/ChessNews';
+import ChessFooter from '@/components/ChessFooter';
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <Header />
+      <ChessHeader />
       <main>
-        <Hero />
-        <Catalog />
-        <About />
-        <Contacts />
+        <ChessHero />
+        <ChessBoard />
+        <ChessLessons />
+        <ChessTournaments />
+        <ChessNews />
       </main>
-      <Footer />
+      <ChessFooter />
     </div>
   );
 };
