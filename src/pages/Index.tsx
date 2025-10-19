@@ -1,27 +1,25 @@
-import TwoQueensHeader from '@/components/TwoQueensHeader';
-import TwoQueensHero from '@/components/TwoQueensHero';
-import TwoQueensAbout from '@/components/TwoQueensAbout';
-import TwoQueensTraining from '@/components/TwoQueensTraining';
-import TwoQueensCoaches from '@/components/TwoQueensCoaches';
-import TwoQueensSchedule from '@/components/TwoQueensSchedule';
-import TwoQueensPrices from '@/components/TwoQueensPrices';
-import TwoQueensContacts from '@/components/TwoQueensContacts';
-import TwoQueensFooter from '@/components/TwoQueensFooter';
+import KidsChessHeader from '@/components/KidsChessHeader';
+import KidsChessHero from '@/components/KidsChessHero';
+import KidsChessCourses from '@/components/KidsChessCourses';
+import KidsChessWhy from '@/components/KidsChessWhy';
+import KidsChessCoaches from '@/components/KidsChessCoaches';
+import KidsChessPrices from '@/components/KidsChessPrices';
+import KidsChessContacts from '@/components/KidsChessContacts';
+import KidsChessFooter from '@/components/KidsChessFooter';
 
 const Index = () => {
   return (
     <div className="min-h-screen">
-      <TwoQueensHeader />
+      <KidsChessHeader />
       <main>
-        <TwoQueensHero />
-        <TwoQueensAbout />
-        <TwoQueensTraining />
-        <TwoQueensCoaches />
-        <TwoQueensSchedule />
-        <TwoQueensPrices />
-        <TwoQueensContacts />
+        <KidsChessHero />
+        <KidsChessCourses />
+        <KidsChessWhy />
+        <KidsChessCoaches />
+        <KidsChessPrices />
+        <KidsChessContacts />
       </main>
-      <TwoQueensFooter />
+      <KidsChessFooter />
     </div>
   );
 };
